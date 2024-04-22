@@ -16,6 +16,10 @@ export const router = createBrowserRouter([
     path: "/to-do",
     element: <Task />,
   },
+  {
+    path: "*",
+    element: <App />,
+  },
 ]);
 
 function App() {
